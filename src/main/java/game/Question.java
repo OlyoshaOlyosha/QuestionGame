@@ -12,6 +12,10 @@ public class Question {
         this.CORRECT_NUMBER_INDEX = CORRECT_NUMBER_INDEX;
     }
 
+    public int getCORRECT_NUMBER_INDEX() {
+        return CORRECT_NUMBER_INDEX;
+    }
+  
     public String getQuestion() {
         return question;
     }
